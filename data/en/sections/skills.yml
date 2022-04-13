@@ -1,0 +1,26 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Docker
+  logo: "/images/sections/skills/docker.svg"
+  summary: "Capable of deploying, managing application on Docker and Docker-compose. Experienced in writing dockerfiles and orchestration templates"
+  url: "https://docker.com/"
+
+- name: Linux
+  logo: "/images/sections/skills/linux.png"
+  summary: "Linux has been my primary OS for over 10 years. I know the OS inside and out and I'm usually anticipating a patch or two."
+  url: "https://linuxfoundation.org/"
+
+- name: Cloud Computing
+  logo: "/images/sections/skills/cloud.png"
+  summary: "Worked with most of the major clouds such as AWS, Azure, GCP etc."

@@ -1,0 +1,18 @@
+# some information about you
+name: "Brian Rogers"
+nickname: "Brian" ## I don't really have a nickname
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Greetings, My name is"
+image: "images/author/portrait.jpg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "brian@th3rogers.com"
+  phone: "+1 (520) 705-4980"
+
+# some summary about what you do
+summary:
+  - I am a DevOps \"Guy\"
+  - I am a Developer
+  - I love tinkering with servers
+  - I work on optimizing my home-lab
+  - I love to work with some fun projects
