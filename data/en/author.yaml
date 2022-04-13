@@ -1,6 +1,6 @@
 # some information about you
 name: "Brian Rogers"
-nickname: "Brian" ## I don't really have a nickname
+nickname: "Brian" 
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Greetings, My name is"
 image: "images/author/portrait.jpg"
@@ -11,7 +11,7 @@ contactInfo:
 
 # some summary about what you do
 summary:
-  - I am a DevOps \"Guy\"
+  - I am a DevOps Guy
   - I am a Developer
   - I love tinkering with servers
   - I work on optimizing my home-lab
