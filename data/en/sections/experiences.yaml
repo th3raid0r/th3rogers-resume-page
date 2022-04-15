@@ -1,0 +1,43 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Propstream
+    url: "https://www.propstream.com"
+    location: 
+    # company overview
+    overview: One of the premier real-estate data tools for investors.
+  positions:
+  - designation: Senior/Lead DevOps Engineer
+    start: Apr 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Apr 2022
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Maintain, Fix, and Improve legacy infrastructure through use of Infrastructure as Code (IAC), well defined image pipelines, and enhanced management capabilities.
+    - Lead a team of contracted DevOps engineers to implement new pipeline patterns, enhance existing tooling, and provide rich templates and documentation.
+    - Provide easy-to-use templates, wrappers, and applications to increase team momentum. 
+    - Automate QA and Development environment tasks to increase reproducibility of issues.
+
+- company:
+    name: Navex Global 
+    url: "https://www.navexglobal.com"
+    location: Lake Oswego, OR
+    overview: Navex Global is a leader in integrated compliance, risk, and ESG software. 
+  positions:
+  - designation: DevOps Engineer
+    start: Jun 2019
+    end: Apr 2021
+    responsibilities:
+    - Maintain code compilation and deployment pipelines built in TeamCity, Octopus Deploy, and AWS Codepipeline.
+    - Migrate local/teamcity build processes to cloud infrastructure (codebuild/codepipeline)
+    - Build and Maintain “legacy” containers for use by TeamCity. These were windows containers with particularly old versions of .NET framework that doesn’t typically support container runtimes.
