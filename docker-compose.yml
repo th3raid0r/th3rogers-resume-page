@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+  resume-site:
+    build: .
+    ports:
+      - "8086:80"
+    networks:
+      - private
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.resume-site.rule=Host(`brian.th3rogers.com`)"
+      - "traefik.http.routers.resume-site.entrypoints=websecure"
+      - "traefik.http.services.resume-site.loadbalancer.server.port=80"
+      - "traefik.http.routers.resume-site.tls.certresolver=myresolver"
+
+networks:
+  private:
+    external: true
+    name: Private
+
