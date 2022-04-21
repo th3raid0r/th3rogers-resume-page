@@ -13,7 +13,7 @@ experiences:
 - company:
     name: Propstream
     url: "https://www.propstream.com"
-    location: 
+    location: Lake Forest, CA (Remote)
     # company overview
     overview: One of the premier real-estate data tools for investors.
   positions:
@@ -41,3 +41,110 @@ experiences:
     - Maintain code compilation and deployment pipelines built in TeamCity, Octopus Deploy, and AWS Codepipeline.
     - Migrate local/teamcity build processes to cloud infrastructure (codebuild/codepipeline)
     - Build and Maintain “legacy” containers for use by TeamCity. These were windows containers with particularly old versions of .NET framework that doesn’t typically support container runtimes.
+    - Lead a front proxy project built on Envoy with future service-mesh adoption in mind.
+
+- company:
+    name: Incomm Digital Solutions
+    url: "https://www.incomm.com/products/incentives-rewards/"
+    location: Portland, OR
+    overview: Formerly known as Giftango and then Incomm Digital Solutions before being integrated into Incomm proper. Our business unit delivered unique turn-key api solutions for stored value products.
+  positions:
+  - designation: Systems Engineer
+    start: Jul 2017
+    end: Jun 2019
+    responsibilities:
+    - Aid development teams in the implementation of Continuous Delivery and Continuous Deployment using various technologies.
+    - Implement Hashicorp Consul in each of our environments as a service fabric and service discovery layer.
+    - Plan and execute large SQL and RAVENDB migrations.
+    - Implement HashiCorp Vault to integrate, automate, and secure secret and credential rotation.
+    - Also utilize HashiCorp Vault to serve as an internal Certificate Authority allowing for mTLS and easy-to-use pki infrastructure.
+    - Work with Product and Development teams to prepare environments for upcoming changes and new services/products.
+  - designation: Application Support Specialist
+    start: Nov 2015
+    end: Jul 2017
+    responsibilities:
+    - Maintained the stability of high value production systems through robust monitoring, alerting, and change control processes.
+    - Support the implementation of Continuous Delivery and Deployment.
+    - Develop SQL and powershell scripts to fix common customer data issues.
+    - Provide data to operations teams as requested to acheive business goals.
+    - Support and train other team members in a continuous learning environment.
+
+- company:
+    name: NTT America
+    url: "https://services.global.ntt/en-us/"
+    location: Boca Raton, Fl
+    overview: Formerly known as Vario, this pioneering hosting provider was (in)famous for requiring presidential authority prior to being purchased by NTT. 
+  positions:
+  - designation: Software Configuration Mangement Engineer
+    start: May 2014
+    end: Oct 2015
+    responsibilities:
+    - Build, maintain, and configure code releases internally and to clients based on client and developer requirements.
+    - Automate release process using shell scripting such as BASH and Powershell as well as Bamboo Task engine.
+    - Build and automate MSI/EXE installer creation using Installshield, Bamboo, Artifactory, and Jenkins.
+    - Create RPM packages for RHEL and CentOS.
+    - Work with System Administration departments to outline Puppet and Chef configurations so they are compatible with the rest of Continous Integration.
+    - Create custom Atlassian plugins using the Atlassian SDK to provide small, but helpful utilities.
+
+- company:
+    name: Compucom
+    url: "https://www.compucom.com/"
+    location: Bentonville, AR
+    overview: Compucom is one of the worlds largest technical workforce solutions provider with tens of thousands of I.T. professionals globally. 
+  positions:
+  - designation: Level 2 Unix Administrator
+    start: Nov 2013
+    end: May 2014
+    responsibilities:
+    - Administrated and managed UNIX and Linux systems within the Wal-Mart home office and store environment.
+    - Technologies managed includes Web Services, Clustering, Storage Arrays, Tape Backups, VMWare, XEN, and others. 
+    - Supported systems with ssh access and common troubleshooting steps and a smidge of personal intuition.
+    - Supported hardware dispatches by remotely issuing RAID and other hardware commands while the technician operates.
+
+- company:
+    name: L. J. Smith and Associates
+    url: "https://www.kitestring.com/"
+    location: Bentonville, AR
+    overview: One of the oldest and well known high skill technical staffing firms in the Bentonville area, L. J. Smith and associates later rebranded as Kitestring in their effort to become a larger name.
+  positions:
+  - designation: Release Engineer - SCO and 4690 OS.
+    start: Sep 2013
+    end: Nov 2013
+    responsibilities:
+    - Facilitated software component releases with Product Management to fix bugs, maintain, and enhance the point of sale software for Wal-Mart Point of Sale Systems.
+    - Perform the action of sending the software via both the automated and manual system.
+    - Use SSH sessions into problematic systems to diagnose package apply issues.
+    - Script and optimize existing systems for easier, less error prone use. 
+
+- company:
+    name: IPRO Tech
+    url: "https://ipro.com"
+    location: Scottsdale, AZ
+    overview: One of the first eDiscovery and eReview companies. IPRO software allows small firms to take on big cases with a uniquely usable software suite.
+  positions:
+  - designation: Release Engineer - MSI/Installshield
+    start: Feb 2013
+    end: Sep 2013
+    responsibilities:
+    - Generate and maintain installation packages using InstallShield and C#. 
+    - Troubleshoot faulty installer logic.
+    - Communicate with development team to gather requirements for installers.
+    - Communicate with PM's to determine unified aesthetic and installer flow. 
+  - designation: QA Analyst
+    start: Jul 2012
+    end: Feb 2013
+    responsibilities:
+    - Tested and assisted in the development of Ipro Tech eCapture software, and eDiscovery product based on SQL and C# and aimed at the enterprise customer.
+    - Reviewed and validated bug reports.
+    - Assist developers in determining root cause of bugs.
+    - Performed manual functional and regression tests prior to high profile releases.
+  - designation: Client Services Representative
+    start: Jan 2012
+    end: Jul 2012
+    responsibilities:
+    - Support Clients with IPRO Tech software.
+    - Performed UAT testing
+    - Initial documentation and reproduction of bugs on the Classic software suite.
+
+
+
