@@ -11,14 +11,14 @@ section:
 designation: DevOps / Systems / Linux Engineer
 # your company information
 company:
-  name: CollectivOps
+  name: CollectivOps (Founding Phase)
   url: "https://www.CollectivOps.net"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with 10 years of working experience.'                                 
+summary: 'I am a passionate DevOps engineer with over 10 years of working experience. I love working with containers to make development workflows painless and efficient.'                                 
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -26,15 +26,27 @@ socialLinks:
 - name: Github
   icon: "fab fa-github"
   url: "https://www.github.com/th3raid0r"
+- name: Protonmail
+  icon: "fas fa-envelope"
+  url: "brian@th3rogers.com"
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://linkedin.com/in/brian-rogers-he-him-30923021"
 
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
 - name: Leadership
-  percentage: 85
-  color: blue
-- name: Team Work
-  percentage: 90
+  percentage: 70
   color: yellow
+- name: Team Work
+  percentage: 80
+  color: blue
+- name: Systems Thinking
+  percentage: 90
+  color: green
+- name: Training and Documentation
+  percentage: 80
+  color: pink
 

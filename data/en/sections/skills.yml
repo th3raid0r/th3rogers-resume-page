@@ -14,13 +14,35 @@ skills:
 - name: Docker
   logo: "/images/sections/skills/docker.svg"
   summary: "Capable of deploying, managing application on Docker and Docker-compose. Experienced in writing dockerfiles and orchestration templates"
-  url: "https://docker.com/"
 
 - name: Linux
   logo: "/images/sections/skills/linux.png"
   summary: "Linux has been my primary OS for over 10 years. I know the OS inside and out and I'm usually anticipating a patch or two."
-  url: "https://linuxfoundation.org/"
 
 - name: Cloud Computing
   logo: "/images/sections/skills/cloud.png"
-  summary: "Worked with most of the major clouds such as AWS, Azure, GCP etc."
+  summary: "Worked with most of the major clouds such as AWS, Azure, GCP etc. Most of my experience lies with the AWS cloud and related products."
+
+- name: Shell Scripting
+  logo: "/images/sections/skills/shell.svg"
+  summary: "Bash, Zsh, and Powershell are powerful tools and I'm comfortable using them regularly. From container entrypoint scripts, to api automation with CURL, I can always find value to deliver with these deceptively simple tools."
+
+- name: Git
+  logo: "/images/sections/skills/git.png"
+  summary: "I've managed many git repositories in my time. I'm experienced in branching strategies, recovering from a bad commit/merge, and teaching good git etiquette."
+
+- name: Generalist Programming
+  logo: "/images/sections/skills/generalist.png"
+  summary: "I've touched and helped fix C#, Java, Python, Golang, Javascript and more. I'm not a deep expert in any language, but I have a good enough understanding of each to be effective at a mid-level in about 6 months."
+
+- name: Computer Hardware / Bare Metal Servers
+  logo: "/images/sections/skills/hardware.svg"
+  summary: "I've always managed and built my own servers. In doing so I have a deep understanding of Linux's current hardware capabilities, methods of installation, and management of MDADM Raid arrays."
+
+- name: Networking
+  logo: "/images/sections/skills/network.png"
+  summary: "In addition to learning about the Linux kernel and how to install on various hardware, I've also had the experience trying to achieve enterprise level topology with consumer hardware. In more formal roles, I've worked with proxies, load-balancers, VPNs, and other critical network devices and appliances."
+
+- name: Virtualization
+  logo: "/images/sections/skills/vm.svg"
+  summary: "I've done some pretty radical things with my virtualization configuration. I've optimized VMs for both latency and throughput, as well as a mix of both. I've also passed through hardware using IOMMU groups to virtual machines for native-like performance."
