@@ -5,5 +5,5 @@ ENV HUGO_DESTINATION=/public
 COPY . /src 
 RUN hugo -D
 
-FROM nginx
+FROM nginx:latest
 COPY --from=build /public /usr/share/nginx/html
