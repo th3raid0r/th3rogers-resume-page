@@ -11,6 +11,27 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Aerospike
+    url: "https://www.aerospike.com"
+    location: Mountain View, CA (Remote)
+    # company overview
+    overview: A high-performance real-time distributed database.
+  positions:
+  - designation: Cloud Software Reliability Engineer
+    start: Apr 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end:
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Delivered Customer Environments through use of Infrastructure as Code (Packer, Terraform, Ansible)
+    - Maintain and Troubleshoot Customer environments using Grafana and Prometheus as well as direct SSH access to the environment.
+    - Research and Implement new features for the ACS (Aerospike Customer Managed Services) platform - particularly updating our OpenVPN stack to Tailscale (wireguard).
+    - Assist other teams and departments with their Infra as Code, deployment methods, and other areas involving a deep understanding of Operating Systems. 
+    - Develop new terraform and ansible modules and enhance existing ones. Paricularly enabling and configuring cloud agents that enhance IO performance.
+    - Improve monitoring thresholds to increase system visibility and reduce alert fatigue.
+    - Drive enhancements to our reliability by investigating cross-cloud solutions, improving high availability architecture, and increasing guardrails around operations though automation.
+    - Last, but certainly not least, perform manual and automated operations as needed for customers.
+- company:
     name: Propstream
     url: "https://www.propstream.com"
     location: Lake Forest, CA (Remote)
