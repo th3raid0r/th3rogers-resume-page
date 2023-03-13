@@ -44,3 +44,7 @@ params:
   newsletter:
     enable: false
   background: "images/patrick-boyer-tucson.jpg"
+  darkMode:
+    enable: true
+    provider: darkreader
+    default: system
