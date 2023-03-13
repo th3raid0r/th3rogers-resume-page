@@ -1,3 +1,4 @@
 [submodule "themes/toha"]
 	path = themes/toha
-	url = https://github.com/hugo-toha/toha.git
+	url = https://github.com/hugo-toha/toha
+	branc = v3.8.0
