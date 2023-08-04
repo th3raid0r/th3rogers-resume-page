@@ -11,6 +11,24 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: tucson.social
+    url: "https://www.tucson.social"
+    location: Tucson, Arizona
+    # company overview
+    overview: A social news aggregator and discussion site by Tucson for Tucson. 
+  positions:
+  - designation: Owner/Operator
+    start: Jun 2023
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end:
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Basically everything involving starting your own business, but with the added difficulty of attempting to be a non-profit!
+    - Operate the site and its infrastructure on Oracle Cloud and optimize the spend.
+    - Maintain site security with WAF, Proxies, and other technologies to stay ahead of DDOS attacks and other malicious traffic. 
+    - Market and advertise the site in the local Tucson area.
+    - Legal Filings / Financial Disclosures (as required for non-profit status - and usually while consulting a lawyer/accountant)
+- company:
     name: Aerospike
     url: "https://www.aerospike.com"
     location: Mountain View, CA (Remote)
