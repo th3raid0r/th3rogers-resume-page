@@ -155,9 +155,9 @@ PKG_CONFIG_PATH="$ROCM_PATH/lib/pkgconfig:${PKG_CONFIG_PATH:-}"
 DCMAKE_C_COMPILER=$ROCM_PATH/llvm/bin/clang
 DCMAKE_CXX_COMPILER=$ROCM_PATH/llvm/bin/clang++
 ```
-
+{{< alert type="info" >}}
 _NOTE:_ This also seems to fix the issue where the lemonade build of llamacpp doesn't pick up on the right hipBLASt tensor location. 
-
+{{< /alert >}}
 
 
 # Lemonade
@@ -186,9 +186,11 @@ Then ensure that you're sourcing the conda.sh folder in your bashrc or zshrc or 
 [ -f /opt/miniforge/etc/profile.d/conda.sh ] && source /opt/miniforge/etc/profile.d/conda.sh
 ```
 
-#### *CAUTION* - Conda Forge isn't always free
-If you are an organization, please know that the Conda Forge peeps will find you and threaten you. It's not fun. For individuals, proceed, but if you need to deploy this on an org's fleet, maybe find a different method of install.
+{{< alert type="danger" >}}
+CAUTION: Conda Forge isn't always free.
 
+If you are an organization, please know that the Conda Forge repository is a paid product for businesses and enterprises. Their legal team is notorious for shaking down unlicensed usage. You've been warned!
+{{< /alert >}}
 ## Installing Lemonade
 
 Now we create a conda env, install lemonade with some flags, and run our server with the desired backend.
@@ -204,7 +206,15 @@ Note that these flags differ from the official documentation which only uses the
 
 ## Running Lemonade
 
-Once installed we can run `ROCBLAS_USE_HIPBLASLT=1 lemonade-server-dev --llamacpp rocm` to run Lemonade with ROCm. To run on vulkan instead, do `lemonade-server-dev --llamacpp vulkan`. 
+To run with ROCm - execute:
+```shell
+ROCBLAS_USE_HIPBLASLT=1 lemonade-server-dev --llamacpp rocm
+``` 
+
+To run on vulkan instead: 
+```shell
+lemonade-server-dev --llamacpp vulkan
+```
 
 # Advanced Usage
 
@@ -230,8 +240,9 @@ chmod +x llama-*
 ```
 
 You can then use any GUI that supports an oLLAMA backend like GPT-4ALL and other apps. I use LibreChat.
-
-⚠️ WARNING ⚠️ - The `-hf` option is not supported as the llamacpp-rocm build does not include CURL at this time. 
+{{< alert type="warning" >}}
+WARNING - The `-hf` option is not supported as the llamacpp-rocm build does not include CURL at this time. 
+{{< /alert >}}
 
 ## What about the NPU?
 
@@ -269,6 +280,6 @@ If you search the strings "aie2" and "AIE-ML" in the ROCm organization you'll se
 
 **NPU Mini-Conclusion:** 
 
-Anyone who says "ROCm doesn't support xdna/npu/etc" is full of crap, needs to actually READ the damn code, and can be safely and promptly ignored. We have thousands of newly forged AMD ROCm developers and this type of low effort, lazy community engagement hurts us rather than helps us.
+Anyone who says "ROCm doesn't support xdna/npu/etc" has allowed their knee-jerk reaction against anything new to override reality. They may be well meaning, but ultimately hurt the ability for the project to flourish. So if this is you, STOP!
 
-ROCm support for the NPU is _new, buggy, and under active development at **blistering** speed_ - NOT unsupported or unmaintained with no interest as many community members on github would have you believe.
+ROCm support for the NPU is _new, buggy, and under active development at **blistering** speed_. I imagine real NPU use-cases on Linux within 6 months at this rate.
