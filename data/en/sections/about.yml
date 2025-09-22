@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: DevOps / Systems / Linux Engineer
+designation: Site Reliability Engineer and Social Entrepreneur
 # your company information
 #company:
 #  name: CollectivOps (Founding Phase)
@@ -18,7 +18,7 @@ designation: DevOps / Systems / Linux Engineer
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate DevOps engineer with over 10 years of working experience. I love working with containers to make development workflows painless and efficient.'                                 
+summary: 'I am a passionate technology worker with over 15 years of industry experience.'                                 
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -36,17 +36,21 @@ socialLinks:
 # your soft skills
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
-softSkills:
-- name: Leadership
+badges:
+- type: soft-skill-indicator
+  name: Leadership
   percentage: 70
   color: yellow
-- name: Team Work
+- type: soft-skill-indicator
+  name: Team Work
   percentage: 80
   color: blue
-- name: Systems Thinking
+- type: soft-skill-indicator
+  name: Systems Thinking
   percentage: 90
   color: green
-- name: Training and Documentation
+- type: soft-skill-indicator
+  name: Training and Documentation
   percentage: 80
   color: pink
 
