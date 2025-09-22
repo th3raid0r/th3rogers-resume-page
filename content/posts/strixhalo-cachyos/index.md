@@ -4,7 +4,7 @@ date: 2025-09-21T14:00:00+07:00
 description: A guide on configuring CachyOS for LLM inference on Strix Halo
 menu:
   sidebar:
-    name: CachyOS on Strix Halo
+    name: Configuring CachyOS for LLMs on Strix Halo
     identifier: strixhalo-cachyos
     weight: 10
 tags: ["llama", "ai", "strix-halo", "linux", "inference", "rocm"]
@@ -21,7 +21,7 @@ Consider this:
 2. Many posts about the chipset (gfx1151) are erroneously marked as un-supported by well meaning community members in upstream projects that _actually do_ support the chipset. (ROCm has a few of these)
 3. Some things marked as _not working_ (like hipBLASt support on the lemonade llamacpp build) do have functional workarounds (which I will get into in this guide).
 4. As of 09/15/25 AMDVLK has been discontinued, it is often cited as having better inference performance in some cases and often recommended - however, I expect this to change rapidly as the Mesa project's version accelerates.
-5. The GTT / Shared memory parameter change has been poorly documented AND seems to have issues working with CachyOS's ZRAM.
+5. The GTT / Shared memory parameter change has changed recently AND seems to have issues working with CachyOS's ZRAM.
 
 However, despite all these changes, there is still one unavoidable truth **this platform is new, requires tinkering, and breaks a lot for inference right now**.
 
@@ -102,7 +102,11 @@ The important part here is `ram / 8` which allocates only 16GB of our physical r
 
 ### 3. Adjust Swappiness
 
-Run `sudo cp /usr/lib/udev/rules.d/30-zram.rules /etc/udev/rules.d/99-zram.rules` and simply make the contents:
+Run the followign command:
+```shell
+sudo cp /usr/lib/udev/rules.d/30-zram.rules /etc/udev/rules.d/99-zram.rules
+```
+and simply make the contents of `/etc/udev/rules.d/99-zram.rules`:
 ```txt
 ACTION=="change", KERNEL=="zram0", ATTR{initstate}=="1", SYSCTL{vm.swappiness}="10", \
     RUN+="/bin/sh -c 'echo N > /sys/module/zswap/parameters/enabled'"
@@ -123,7 +127,7 @@ TheRock is a project that automates the drudgery of building the ROCm source you
 
 They hold their releases in an AWS S3 bucket here: https://therock-nightly-tarball.s3.amazonaws.com/
 
-We simply need to fetch the latest release from there which follows the pattern of:`therock-dist-linux-gfx1151-7.0.0rcYYYYMMDD.tar.gz`
+We simply need to fetch the latest release from there which follows the pattern of: `therock-dist-linux-gfx1151-7.0.0rcYYYYMMDD.tar.gz`
 
 So, to download and install it do:
 
