@@ -6,13 +6,13 @@ greeting: "Greetings, My name is"
 image: "images/author/portrait-crop.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "brian@th3rogers.com"
+  email: "brrogers@pm.me"
   phone: "+1 (520) 705-4980"
 
 # some summary about what you do
 summary:
-  - Site Reliability Engineer
-  - Social Entrepreneur
-  - Tech Geek
-  - Local AI Enthusiast
-  - Aspiring Civil Servant
+  - Senior Cloud Software Reliability Engineer
+  - Creator of u-forge.ai
+  - Founder of Tucson.social
+  - Local-First AI Developer
+  - Community Platform Operator

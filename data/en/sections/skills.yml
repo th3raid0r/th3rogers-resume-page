@@ -8,41 +8,39 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true
 
-# Your Skills.
-# Give a summary of you each skill in the summary section.
 skills:
-- name: Docker
-  logo: "/images/sections/skills/docker.svg"
-  summary: "Capable of deploying, managing application on Docker and Docker-compose. Experienced in writing dockerfiles and orchestration templates"
-
-- name: Linux
-  logo: "/images/sections/skills/linux.png"
-  summary: "Linux has been my primary OS for over 10 years. I know the OS inside and out and I'm usually anticipating a patch or two."
-
-- name: Cloud Computing
+- name: Cloud & Infrastructure
   logo: "/images/sections/skills/cloud.png"
-  summary: "Worked with most of the major clouds such as AWS, Azure, GCP etc. Most of my experience lies with the AWS cloud and related products."
+  summary: "Build and operate infrastructure across AWS, Azure, OCI, and GCP using Kubernetes, Docker, Terraform, Ansible, and Packer."
 
-- name: Shell Scripting
-  logo: "/images/sections/skills/shell.svg"
-  summary: "Bash, Zsh, and Powershell are powerful tools and I'm comfortable using them regularly. From container entrypoint scripts, to api automation with CURL, I can always find value to deliver with these deceptively simple tools."
-
-- name: Git
-  logo: "/images/sections/skills/git.png"
-  summary: "I've managed many git repositories in my time. I'm experienced in branching strategies, recovering from a bad commit/merge, and teaching good git etiquette."
-
-- name: Generalist Programming
-  logo: "/images/sections/skills/generalist.png"
-  summary: "I've touched and helped fix C#, Java, Python, Golang, Javascript and more. I'm not a deep expert in any language, but I have a good enough understanding of each to be effective at a mid-level in about 6 months."
-
-- name: Computer Hardware / Bare Metal Servers
+- name: Observability & Reliability
   logo: "/images/sections/skills/hardware.svg"
-  summary: "I've always managed and built my own servers. In doing so I have a deep understanding of Linux's current hardware capabilities, methods of installation, and management of MDADM Raid arrays."
+  summary: "Use Prometheus and Grafana for SLO-based alerting and SLA management. Lead incident response and improve monitoring, runbooks, and operational guardrails through post-incident reviews."
 
-- name: Networking
+- name: Networking & Security
   logo: "/images/sections/skills/network.png"
-  summary: "In addition to learning about the Linux kernel and how to install on various hardware, I've also had the experience trying to achieve enterprise level topology with consumer hardware. In more formal roles, I've worked with proxies, load-balancers, VPNs, and other critical network devices and appliances."
+  summary: "Work with TCP/IP, DNS, TLS and certificate lifecycle management, Tailscale/WireGuard, HashiCorp Vault, and Consul to support secure, reliable services."
 
-- name: Virtualization
-  logo: "/images/sections/skills/vm.svg"
-  summary: "I've done some pretty radical things with my virtualization configuration. I've optimized VMs for both latency and throughput, as well as a mix of both. I've also passed through hardware using IOMMU groups to virtual machines for native-like performance."
+- name: CI/CD & Automation
+  logo: "/images/sections/skills/git.png"
+  summary: "Build delivery pipelines and infrastructure automation with Git, GitHub Actions, Bamboo, TeamCity, Octopus Deploy, and AWS CodeBuild/CodePipeline. Use shell scripting, Python, and Infrastructure as Code to reduce manual operations."
+
+- name: Languages & Frameworks
+  logo: "/images/sections/skills/generalist.png"
+  summary: "Develop tooling and automation with Python, JavaScript/Node.js, SQL, and shell scripting, with additional experience in Perl and Java. Build native desktop software in Rust through u-forge.ai."
+
+- name: Databases & Search
+  logo: "/images/sections/skills/docker.svg"
+  summary: "Operate and support Aerospike, SQL Server, RavenDB, and NoSQL systems. Implement SQLite FTS5 keyword search, sqlite-vec semantic search, and hybrid reciprocal rank fusion retrieval in [u-forge.ai](/posts/u-forge-ai/)."
+
+- name: Rust & Local AI / GraphRAG
+  logo: "/images/sections/skills/generalist.png"
+  summary: "Built [u-forge.ai](/posts/u-forge-ai/), a Rust-native desktop TTRPG graph-notes app with GraphRAG retrieval and optional local inference via Lemonade. Implemented cancellable, resource-aware jobs and multi-device inference queuing across NPU, CPU, and GPU."
+
+- name: Linux & Platform Operations
+  logo: "/images/sections/skills/linux.png"
+  summary: "Administer Linux systems, containers, bare-metal servers, and virtual machines. Work with Nginx and Traefik, storage and RAID, and IOMMU device passthrough."
+
+- name: Engineering Collaboration
+  logo: "/images/sections/skills/shell.svg"
+  summary: "Work in Agile/Scrum teams using Jira. Lead cross-functional reliability work, mentor engineers on infrastructure and delivery practices, and document repeatable operational processes."

@@ -14,6 +14,10 @@ buttons:
   filter: "all"
 - name: Professional
   filter: "professional"
+- name: AI & Worldbuilding
+  filter: "ai"
+- name: Community
+  filter: "community"
 - name: Self-Education
   filter: "education"
 - name: Hobby
@@ -21,6 +25,26 @@ buttons:
 
 # your projects
 projects:
+- name: u-forge.ai (Universe Forge)
+  role: Creator & Developer
+  timeline: "2024 - Present"
+  repo: "https://github.com/th3raid0r/u-forge.ai"
+  summary: |-
+    A local-first Rust desktop application for tabletop RPG worldbuilding. Object-based notes form a schema-driven knowledge graph, with GraphRAG retrieval combining keyword, semantic, and hybrid search. An optional AI assistant can search and update world data, while resource-aware inference queues coordinate work across available NPU, CPU, and GPU backends. Core editing and full-text search work without AI.
+
+    Functional and demoable; actively refining search relevance and retrieval precision. The current alpha targets Linux x86_64. [Read the architecture and reliability case study](/posts/u-forge-ai/). Project information is currently hosted on GitHub, not a standalone u-forge.ai website.
+  tags: ["ai", "hobby", "education", "Rust", "GraphRAG", "local-first"]
+
+- name: Tucson.social
+  role: Founder & Operator
+  timeline: "June 2023 - Present"
+  url: "https://tucson.social"
+  summary: |-
+    A suite of federated community platforms for Tucson: [Lemmy discussion](https://tucson.social), [Matrix messaging](https://tucson.chat), and [Mobilizon events](https://meetup.tucson.social). I architect and operate the OCI infrastructure, including containers, DNS, TLS, monitoring, and geographic access controls designed to keep local services rooted in the Tucson metro area while supporting broader federation.
+
+    The geographic access model reduces the abuse surface and moderation workload. I contribute upstream fixes and am developing community governance and a financial sustainability model for a nonprofit transition, including stakeholder engagement and fiscal sponsorship evaluation.
+  tags: ["community", "OCI", "federation", "self-hosting"]
+
 - name: Homelab
   #logo: 
   role: Hobbyist

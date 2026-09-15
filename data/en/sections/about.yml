@@ -8,17 +8,21 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Site Reliability Engineer and Social Entrepreneur
-# your company information
-#company:
-#  name: CollectivOps (Founding Phase)
-#  url: "https://www.CollectivOps.net"
+designation: Senior Cloud Software Reliability Engineer
+company:
+  name: Aerospike
+  url: "https://aerospike.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate technology worker with over 15 years of industry experience.'                                 
+summary: |-
+  I am a Senior SRE with 13+ years in infrastructure, reliability, and platform engineering. At Aerospike, I drive cross-functional reliability initiatives, improve SLO-based alerting, automate cloud operations, and lead incident response. My work combines deep technical expertise with engineering leadership and mission-driven product thinking.
+
+  Outside my day job, I build [u-forge.ai](/posts/u-forge-ai/), a local-first Rust desktop application for tabletop RPG worldbuilding. It brings together a knowledge graph, hybrid GraphRAG retrieval, and resource-aware local inference—applying reliability engineering to an AI-assisted creative workspace.
+
+  I also founded and operate [Tucson.social](https://tucson.social), a suite of federated community platforms spanning discussion, messaging, and events. I own its architecture and operations while developing a governance framework and financial sustainability model for a nonprofit transition. [Explore my projects](#projects).
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -26,9 +30,9 @@ socialLinks:
 - name: Github
   icon: "fab fa-github"
   url: "https://www.github.com/th3raid0r"
-- name: Protonmail
+- name: Email
   icon: "fas fa-envelope"
-  url: "brian@th3rogers.com"
+  url: "mailto:brrogers@pm.me"
 - name: LinkedIn
   icon: "fab fa-linkedin"
   url: "https://linkedin.com/in/brian-rogers-he-him-30923021"
