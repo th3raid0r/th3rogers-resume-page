@@ -11,6 +11,8 @@ tags: ["llama", "ai", "strix-halo", "linux", "inference", "rocm"]
 categories: ["Linux", "AI"]
 ---
 
+> This guide covers my September 2025 setup. That work helped shape [u-forge.ai](/posts/u-forge-ai/), the Rust desktop worldbuilding app I'm developing with local AI and a knowledge graph.
+
 # Introduction 
 
 The AMD Strix Halo platform is a wonderful combination of capabilities! It promises to unlock local AI computing in a way that's more accessible than competitors and help democratize AI. However, this isn't without hurdles, new silicon means new drivers, new SDKs, and updates to existing development platforms (ROCm) -- all of which incur instability, bugs, and inconsistencies between releases. It's the wild west at the moment, and I believe that this existence is best lived on an Arch Linux based platform where the latest packages are only days out from upstream release. 

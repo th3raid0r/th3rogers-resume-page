@@ -8,17 +8,21 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Site Reliability Engineer and Social Entrepreneur
-# your company information
-#company:
-#  name: CollectivOps (Founding Phase)
-#  url: "https://www.CollectivOps.net"
+designation: Senior Cloud Software Reliability Engineer
+company:
+  name: Aerospike
+  url: "https://aerospike.com"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate technology worker with over 15 years of industry experience.'                                 
+summary: |-
+  I'm a senior site reliability engineer with 13+ years in infrastructure, reliability, and platform engineering. At Aerospike, I work with product teams to improve cloud reliability, make alerts more useful, automate operations, and lead incident response.
+
+  Outside work, I'm building [u-forge.ai](/posts/u-forge-ai/), a Rust desktop application for tabletop RPG worldbuilding. It connects campaign notes through a knowledge graph and uses local AI to help game masters search and develop their settings.
+
+  I also founded and run [Tucson.social](https://tucson.social), a collection of community services for discussion, messaging, and events. I manage the infrastructure and am working on community governance and sustainable funding as part of a planned nonprofit transition. [Explore my projects](#projects).
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -26,31 +30,36 @@ socialLinks:
 - name: Github
   icon: "fab fa-github"
   url: "https://www.github.com/th3raid0r"
-- name: Protonmail
+- name: Email
   icon: "fas fa-envelope"
-  url: "brian@th3rogers.com"
+  url: "mailto:brrogers@pm.me"
 - name: LinkedIn
   icon: "fab fa-linkedin"
   url: "https://linkedin.com/in/brian-rogers-he-him-30923021"
 
-# your soft skills
-# give the percentage between 50 to 100 with 5 intervals.
-# currently supported colors: blue, yellow, pink, green, sky, orange
+# Career strengths. Percentages use increments of 5.
 badges:
 - type: soft-skill-indicator
-  name: Leadership
-  percentage: 70
-  color: yellow
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 80
+  name: Incident Leadership
+  percentage: 85
   color: blue
 - type: soft-skill-indicator
   name: Systems Thinking
-  percentage: 90
+  percentage: 80
   color: green
 - type: soft-skill-indicator
-  name: Training and Documentation
-  percentage: 80
+  name: Cross-Team Collaboration
+  percentage: 75
+  color: yellow
+- type: soft-skill-indicator
+  name: Technical Mentorship
+  percentage: 70
   color: pink
-
+- type: soft-skill-indicator
+  name: Operational Improvement
+  percentage: 85
+  color: blue
+- type: soft-skill-indicator
+  name: Project Ownership
+  percentage: 80
+  color: green

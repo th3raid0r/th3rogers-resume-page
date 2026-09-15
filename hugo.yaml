@@ -1,6 +1,6 @@
-baseURL: http://brian.th3rogers.com/
-languageCode: en-us
-title: Brian Rogers - SRE and Social Entrepreneur
+baseURL: https://brian.th3rogers.com/
+locale: en-us
+title: Brian Rogers - Senior SRE and Builder
 
 module:
   imports:
@@ -19,7 +19,8 @@ module:
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
-    languageName: English
+    locale: en-us
+    label: English
     weight: 1
 
 # Allow raw html in markdown file
@@ -122,7 +123,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: false
+      enable: false
       # services:
         # Google Analytics
         # google:
@@ -167,7 +168,7 @@ params:
       enable: true
       # # If you want to use different country flag for a language, specify them here.
       # flagOverwrites:
-      #   - languageCode: en
+      #   - locale: en
       #     countryCode: us
 
     # Enable this to use `embed-pdf` shortcode.
@@ -232,7 +233,7 @@ params:
         plyr:
           # options doc: https://github.com/sampotts/plyr#options
           # fullscreen: true
-    
+
     # Enables copy code button
     copyCodeButton:
       enable: true
@@ -240,7 +241,7 @@ params:
     # Enable reading time support in post cards and in post pages
     readingTime:
       enable: false
-    
+
     # Number of posts to show to each page. Default is "12"
     pagination:
        maxPostsPerPage: 12

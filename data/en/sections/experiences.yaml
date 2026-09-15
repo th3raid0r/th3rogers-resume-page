@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Experiences
+  name: Experience
   id: experiences
   enable: true
   weight: 3
@@ -10,180 +10,156 @@ section:
 
 # Your experiences
 experiences:
-- company:
-    name: tucson.social
-    url: "https://www.tucson.social"
-    location: Tucson, Arizona
-    # company overview
-    overview: A social news aggregator and discussion site by Tucson for Tucson. 
-  positions:
-  - designation: Owner/Operator
-    start: Jun 2023
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end:
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Basically everything involving starting your own business, but with the added difficulty of attempting to be a non-profit!
-    - Operate the site and its infrastructure on Oracle Cloud and optimize the spend.
-    - Maintain site security with WAF, Proxies, and other technologies to stay ahead of DDOS attacks and other malicious traffic. 
-    - Market and advertise the site in the local Tucson area.
-    - Legal Filings / Financial Disclosures (as required for non-profit status - and usually while consulting a lawyer/accountant)
+
 - company:
     name: Aerospike
     url: "https://www.aerospike.com"
     location: Mountain View, CA (Remote)
     # company overview
-    overview: A high-performance real-time distributed database.
+    overview: Distributed database software for real-time applications.
   positions:
-  - designation: Cloud Software Reliability Engineer
-    start: Apr 2022
+  - designation: Senior Cloud Software Reliability Engineer (Cloud SRE)
+    start: May 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end:
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Delivered Customer Environments through use of Infrastructure as Code (Packer, Terraform, Ansible)
-    - Maintain and Troubleshoot Customer environments using Grafana and Prometheus as well as direct SSH access to the environment.
-    - Research and Implement new features for the ACS (Aerospike Customer Managed Services) platform - particularly updating our OpenVPN stack to Tailscale (wireguard).
-    - Assist other teams and departments with their Infra as Code, deployment methods, and other areas involving a deep understanding of Operating Systems. 
-    - Develop new terraform and ansible modules and enhance existing ones. Paricularly enabling and configuring cloud agents that enhance IO performance.
-    - Improve monitoring thresholds to increase system visibility and reduce alert fatigue.
-    - Drive enhancements to our reliability by investigating cross-cloud solutions, improving high availability architecture, and increasing guardrails around operations through automation.
-    - Last, but certainly not least, perform manual and automated operations as needed for customers.
+    - Work with product development teams to improve cloud reliability and SLO-based alerting. Monitor approximately 30 production customer environments with Grafana and Prometheus to maintain SLA compliance.
+    - Lead high-availability improvements and automate operational safeguards.
+    - Serve as incident commander during on-call rotations, leading triage, investigation, and resolution. Support escalations for complex incidents and use post-incident reviews to improve runbooks and monitoring.
+    - Provision and maintain customer infrastructure with Packer, Terraform, and Ansible, including modules for cloud agents that improve I/O performance.
+    - Reduced false-positive alerts from dozens per week to 1–2 through threshold recalibration and configuration-aware monitoring.
+    - Automated DNS and certificate lifecycle management for a Kubernetes-based managed cloud offering, eliminating manual customer IP notifications and certificate rotation.
+    - Designed the migration from OpenVPN to Tailscale (WireGuard) to improve network reliability and simplify operations across environments.
+    - Coordinated the transfer of shared HashiCorp Vault infrastructure to the SRE team, including plans for provisioning and helping teams use the service.
+    - Evaluated options across cloud providers to address capacity constraints for specialized instance types.
 - company:
     name: Propstream
     url: "https://www.propstream.com"
     location: Lake Forest, CA (Remote)
     # company overview
-    overview: One of the premier real-estate data tools for investors.
+    overview: Real estate data and analysis tools for investors.
   positions:
-  - designation: Senior/Lead DevOps Engineer
+  - designation: Lead DevSecOps Engineer
     start: Apr 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     end: Apr 2022
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Maintain, Fix, and Improve legacy infrastructure through use of Infrastructure as Code (IAC), well defined image pipelines, and enhanced management capabilities.
-    - Lead a team of contracted DevOps engineers to implement new pipeline patterns, enhance existing tooling, and provide rich templates and documentation.
-    - Provide easy-to-use templates, wrappers, and applications to increase team momentum. 
-    - Automate QA and Development environment tasks to increase reproducibility of issues.
+    - Led infrastructure modernization, improved branching strategies, and automated CI/CD, increasing the team's delivery rate by 20%.
+    - Guided contract engineers in building reusable CI/CD pipelines and mentored the team on infrastructure as code.
+    - Reduced time to resolution by 50% by improving AWS tooling and operational processes.
+    - Redesigned credential management, managed penetration testing, and wrote security policies.
+    - Maintained and migrated legacy infrastructure while designing replacement systems. Automated QA and development environment tasks to make issues easier to reproduce.
 
 - company:
     name: Navex Global 
     url: "https://www.navexglobal.com"
     location: Lake Oswego, OR
-    overview: Navex Global is a leader in integrated compliance, risk, and ESG software. 
+    overview: Software for compliance, risk management, and environmental, social, and governance programs.
   positions:
   - designation: DevOps Engineer
     start: Jun 2019
     end: Apr 2021
     responsibilities:
-    - Maintain code compilation and deployment pipelines built in TeamCity, Octopus Deploy, and AWS Codepipeline.
-    - Migrate local/teamcity build processes to cloud infrastructure (codebuild/codepipeline)
-    - Build and Maintain “legacy” containers for use by TeamCity. These were windows containers with particularly old versions of .NET framework that doesn’t typically support container runtimes.
-    - Lead a front proxy project built on Envoy with future service-mesh adoption in mind.
+    - Designed and maintained CI/CD pipelines across TeamCity, Octopus Deploy, AWS CodeBuild, and CodePipeline.
+    - Migrated local build infrastructure to the cloud and improved branching strategies across multiple teams.
+    - Built specialized Windows Docker containers for cloud-based compilation of legacy .NET codebases.
+    - Partnered with engineering leads to improve deployment processes and automate environment provisioning and pipeline creation.
+    - Led an Envoy front-proxy project designed to support future service-mesh adoption.
 
 - company:
-    name: Incomm Digital Solutions
+    name: InComm Digital Solutions
     url: "https://www.incomm.com/products/incentives-rewards/"
     location: Portland, OR
-    overview: Formerly known as Giftango and then Incomm Digital Solutions before being integrated into Incomm proper. Our business unit delivered unique turn-key api solutions for stored value products.
+    overview: Formerly Giftango, InComm Digital Solutions delivered API-based stored-value products for financial services.
   positions:
   - designation: Systems Engineer
     start: Jul 2017
     end: Jun 2019
     responsibilities:
-    - Aid development teams in the implementation of Continuous Delivery and Continuous Deployment using various technologies.
-    - Implement Hashicorp Consul in each of our environments as a service fabric and service discovery layer.
-    - Plan and execute large SQL and RAVENDB migrations.
-    - Implement HashiCorp Vault to integrate, automate, and secure secret and credential rotation.
-    - Also utilize HashiCorp Vault to serve as an internal Certificate Authority allowing for mTLS and easy-to-use pki infrastructure.
-    - Work with Product and Development teams to prepare environments for upcoming changes and new services/products.
+    - Supported production financial services systems and continuous delivery with Consul, Vault, and Ansible-based automation.
+    - Led data pipeline and database migrations involving SQL Server, RavenDB, and .NET Core.
+    - Reduced false-positive production alerts from 1–2 per day to 1–2 per week through signal analysis and threshold tuning.
+    - Implemented Consul for service discovery and Vault for automated secret rotation and an internal certificate authority supporting mTLS.
+    - Partnered with product and development teams to prepare environments for new services and releases.
   - designation: Application Support Specialist
     start: Nov 2015
     end: Jul 2017
     responsibilities:
-    - Maintained the stability of high value production systems through robust monitoring, alerting, and change control processes.
-    - Support the implementation of Continuous Delivery and Deployment.
-    - Develop SQL and powershell scripts to fix common customer data issues.
-    - Provide data to operations teams as requested to acheive business goals.
-    - Support and train other team members in a continuous learning environment.
+    - Kept production systems stable through monitoring, alerting, and change control.
+    - Supported continuous delivery and deployment.
+    - Developed SQL and PowerShell scripts to resolve common customer data issues.
+    - Supplied operations teams with the data they needed for their work.
+    - Trained and supported team members.
 
 - company:
     name: NTT America
     url: "https://services.global.ntt/en-us/"
-    location: Boca Raton, Fl
-    overview: Formerly known as Vario, this pioneering hosting provider was (in)famous for requiring presidential authority prior to being purchased by NTT. 
+    location: Boca Raton, FL
+    overview: Hosting and infrastructure services provider.
   positions:
-  - designation: Software Configuration Mangement Engineer
+  - designation: SCM/Release Engineer
     start: May 2014
-    end: Oct 2015
+    end: Nov 2015
     responsibilities:
-    - Build, maintain, and configure code releases internally and to clients based on client and developer requirements.
-    - Automate release process using shell scripting such as BASH and Powershell as well as Bamboo Task engine.
-    - Build and automate MSI/EXE installer creation using Installshield, Bamboo, Artifactory, and Jenkins.
-    - Create RPM packages for RHEL and CentOS.
-    - Work with System Administration departments to outline Puppet and Chef configurations so they are compatible with the rest of Continous Integration.
-    - Create custom Atlassian plugins using the Atlassian SDK to provide small, but helpful utilities.
+    - Built and configured internal and client releases based on customer and developer requirements.
+    - Automated releases with Bash, PowerShell, and Bamboo.
+    - Automated MSI/EXE installer creation using InstallShield, Bamboo, Artifactory, and Jenkins; created RPM packages for RHEL and CentOS.
+    - Coordinated Puppet and Chef configurations with system administrators to support continuous integration.
+    - Developed custom utility plugins with the Atlassian SDK.
 
 - company:
     name: Compucom
     url: "https://www.compucom.com/"
     location: Bentonville, AR
-    overview: Compucom is one of the worlds largest technical workforce solutions provider with tens of thousands of I.T. professionals globally. 
+    overview: IT services provider; supported Wal-Mart systems on assignment.
   positions:
-  - designation: Level 2 Unix Administrator
+  - designation: Unix/Linux Administrator
     start: Nov 2013
     end: May 2014
     responsibilities:
-    - Administrated and managed UNIX and Linux systems within the Wal-Mart home office and store environment.
-    - Technologies managed includes Web Services, Clustering, Storage Arrays, Tape Backups, VMWare, XEN, and others. 
-    - Supported systems with ssh access and common troubleshooting steps and a smidge of personal intuition.
-    - Supported hardware dispatches by remotely issuing RAID and other hardware commands while the technician operates.
+    - Administered Unix and Linux systems for Wal-Mart home office and store environments.
+    - Managed web services, clustering, storage arrays, tape backups, VMware, and Xen.
+    - Troubleshot systems over SSH and coordinated remote RAID and hardware operations with on-site technicians.
 
 - company:
     name: L. J. Smith and Associates
     url: "https://www.kitestring.com/"
     location: Bentonville, AR
-    overview: One of the oldest and well known high skill technical staffing firms in the Bentonville area, L. J. Smith and associates later rebranded as Kitestring in their effort to become a larger name.
+    overview: Technical staffing firm later rebranded as Kitestring; supported Wal-Mart point-of-sale systems on assignment.
   positions:
-  - designation: Release Engineer - SCO and 4690 OS.
+  - designation: Release Manager/Engineer
     start: Sep 2013
     end: Nov 2013
     responsibilities:
-    - Facilitated software component releases with Product Management to fix bugs, maintain, and enhance the point of sale software for Wal-Mart Point of Sale Systems.
-    - Perform the action of sending the software via both the automated and manual system.
-    - Use SSH sessions into problematic systems to diagnose package apply issues.
-    - Script and optimize existing systems for easier, less error prone use. 
+    - Coordinated software releases with product management for Wal-Mart point-of-sale systems running SCO and 4690 OS.
+    - Deployed packages through automated and manual systems and diagnosed installation issues over SSH.
+    - Scripted release workflows to reduce manual effort and errors.
 
 - company:
     name: IPRO Tech
     url: "https://ipro.com"
     location: Scottsdale, AZ
-    overview: One of the first eDiscovery and eReview companies. IPRO software allows small firms to take on big cases with a uniquely usable software suite.
+    overview: eDiscovery and document review software provider.
   positions:
-  - designation: Release Engineer - MSI/Installshield
+  - designation: Junior Release Engineer
     start: Feb 2013
     end: Sep 2013
     responsibilities:
-    - Generate and maintain installation packages using InstallShield and C#. 
-    - Troubleshoot faulty installer logic.
-    - Communicate with development team to gather requirements for installers.
-    - Communicate with PM's to determine unified aesthetic and installer flow. 
-  - designation: QA Analyst
+    - Built and maintained installation packages with InstallShield and C#; troubleshot installer logic.
+    - Collaborated with developers and product managers on installer requirements, appearance, and flow.
+  - designation: Software QA Analyst and Support Liaison
     start: Jul 2012
     end: Feb 2013
     responsibilities:
-    - Tested and assisted in the development of Ipro Tech eCapture software, and eDiscovery product based on SQL and C# and aimed at the enterprise customer.
-    - Reviewed and validated bug reports.
-    - Assist developers in determining root cause of bugs.
-    - Performed manual functional and regression tests prior to high profile releases.
+    - Tested eCapture, an enterprise eDiscovery product built with SQL and C#.
+    - Validated bug reports and helped developers identify root causes.
+    - Performed manual functional and regression testing before releases.
   - designation: Client Services Representative
     start: Jan 2012
     end: Jul 2012
     responsibilities:
-    - Support Clients with IPRO Tech software.
-    - Performed UAT testing
-    - Initial documentation and reproduction of bugs on the Classic software suite.
-
-
+    - Supported clients using IPRO Tech software and performed user acceptance testing.
+    - Documented and reproduced bugs in the Classic software suite.
 
