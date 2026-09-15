@@ -75,7 +75,7 @@ options ttm pages_limit=29360128
 ## Optionally we can pre-allocate any amount of memory. This pool is never accessible to the system.
 ## You might want to do this to reduce GTT fragmentation, and it might have a perf improvement.
 ## If you are using your system exclusively to run AI models, just max this out to match your pages_limit.
-## This example specifies 60GiB pre-allocated.
+## This example specifies 48GiB (12582912 * 4 / 1024 / 1024) pre-allocated.
 #options ttm page_pool_size=12582912
 ```
 
