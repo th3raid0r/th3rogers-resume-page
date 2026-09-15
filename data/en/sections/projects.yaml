@@ -12,8 +12,8 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Professional
-  filter: "professional"
+- name: Reliability Engineering
+  filter: "reliability"
 - name: AI & Worldbuilding
   filter: "ai"
 - name: Community
@@ -27,8 +27,9 @@ buttons:
 projects:
 - name: u-forge.ai (Universe Forge)
   role: Creator & Developer
-  timeline: "2024 - Present"
+  timeline: "2026 - Present"
   repo: "https://github.com/th3raid0r/u-forge.ai"
+  image: /images/projects/u-forge.ai/u-forge-ai.png
   summary: |-
     I'm building a Rust desktop application that connects tabletop RPG notes in a knowledge graph. It combines keyword and semantic search with an optional AI assistant that can search and update world data. Local inference queues schedule work across available NPU, CPU, and GPU backends.
 
@@ -39,6 +40,8 @@ projects:
   role: Founder & Operator
   timeline: "June 2023 - Present"
   url: "https://tucson.social"
+  icon: /images/projects/tucsocial/tucsocial.png
+  image: /images/projects/tucsocial/tucsocial-screen.png
   summary: |-
     I founded and run community services for Tucson: [Lemmy discussion](https://tucson.social), [Matrix messaging](https://tucson.chat), and [Mobilizon events](https://meetup.tucson.social). I designed the infrastructure on Oracle Cloud (OCI) and manage its containers, DNS, TLS, and monitoring. Geographic access controls keep the services focused on the Tucson area and reduce abuse and moderation work, while federation connects the community to the wider network.
 
@@ -61,7 +64,7 @@ projects:
   #url: "https://brian.th3rogers.com/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   repo: "https://github.com/th3raid0r/th3rogers-resume-page"
   summary: I built and maintain this site with Hugo and the Toha theme, with deployment through Cloudflare Pages.
-  tags: ["hobby", "education", "professional"]
+  tags: ["hobby", "education"]
 
 - name: VFIO Gaming Project
   timeline: "January 2018 - 2020"

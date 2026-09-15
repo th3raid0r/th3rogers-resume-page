@@ -103,11 +103,7 @@ experiences:
     start: May 2014
     end: Nov 2015
     responsibilities:
-    - Built and configured internal and client releases based on customer and developer requirements.
-    - Automated releases with Bash, PowerShell, and Bamboo.
-    - Automated MSI/EXE installer creation using InstallShield, Bamboo, Artifactory, and Jenkins; created RPM packages for RHEL and CentOS.
-    - Coordinated Puppet and Chef configurations with system administrators to support continuous integration.
-    - Developed custom utility plugins with the Atlassian SDK.
+    - Automated software releases and Windows/Linux packaging with Bash, PowerShell, Bamboo, Jenkins, and InstallShield.
 
 - company:
     name: Compucom
@@ -119,9 +115,7 @@ experiences:
     start: Nov 2013
     end: May 2014
     responsibilities:
-    - Administered Unix and Linux systems for Wal-Mart home office and store environments.
-    - Managed web services, clustering, storage arrays, tape backups, VMware, and Xen.
-    - Troubleshot systems over SSH and coordinated remote RAID and hardware operations with on-site technicians.
+    - Administered Unix/Linux systems, storage, backups, and virtualization for Wal-Mart home office and store environments.
 
 - company:
     name: L. J. Smith and Associates
@@ -133,9 +127,7 @@ experiences:
     start: Sep 2013
     end: Nov 2013
     responsibilities:
-    - Coordinated software releases with product management for Wal-Mart point-of-sale systems running SCO and 4690 OS.
-    - Deployed packages through automated and manual systems and diagnosed installation issues over SSH.
-    - Scripted release workflows to reduce manual effort and errors.
+    - Coordinated and automated software releases for Wal-Mart point-of-sale systems running SCO and 4690 OS.
 
 - company:
     name: IPRO Tech
@@ -147,19 +139,14 @@ experiences:
     start: Feb 2013
     end: Sep 2013
     responsibilities:
-    - Built and maintained installation packages with InstallShield and C#; troubleshot installer logic.
-    - Collaborated with developers and product managers on installer requirements, appearance, and flow.
+    - Built and maintained InstallShield and C# installation packages in collaboration with developers and product managers.
   - designation: Software QA Analyst and Support Liaison
     start: Jul 2012
     end: Feb 2013
     responsibilities:
-    - Tested eCapture, an enterprise eDiscovery product built with SQL and C#.
-    - Validated bug reports and helped developers identify root causes.
-    - Performed manual functional and regression testing before releases.
+    - Performed functional and regression testing for eCapture and helped developers validate and diagnose bugs.
   - designation: Client Services Representative
     start: Jan 2012
     end: Jul 2012
     responsibilities:
-    - Supported clients using IPRO Tech software and performed user acceptance testing.
-    - Documented and reproduced bugs in the Classic software suite.
-
+    - Supported IPRO Tech clients, performed user acceptance testing, and documented and reproduced software bugs.

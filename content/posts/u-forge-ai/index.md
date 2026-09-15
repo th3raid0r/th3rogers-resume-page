@@ -15,7 +15,7 @@ I've been building **u-forge.ai (Universe Forge)** since 2024 to help game maste
 
 As of September 2026, the project is at v0.1.1 alpha for Linux x86_64. Code, setup instructions, and releases are available on [GitHub](https://github.com/th3raid0r/u-forge.ai).
 
-![Universe Forge showing keyword and hybrid search, a connected world graph, object properties, and an AI assistant](u-forge-ai.png)
+![Universe Forge showing keyword and hybrid search, a connected world graph, object properties, and an AI assistant](/images/projects/u-forge.ai/u-forge-ai.png)
 
 *The workspace combines search, a relationship graph, object editing, and the AI assistant.*
 
