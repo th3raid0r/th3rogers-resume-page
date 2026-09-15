@@ -52,7 +52,7 @@ params:
   # Currently, you can just hide it from the footer.
   newsletter:
     enable: false
-  background: "images/patrick-boyer-tucson.jpg"
+  background: "images/TVSunset.jpg"
   features:
     # Configure theme color settings
     theme:
