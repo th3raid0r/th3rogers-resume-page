@@ -14,7 +14,12 @@ company:
   url: "https://aerospike.com"
 
 # your resume. this file path should be relative to you "static" directory
-resume: "files/resume.pdf"
+# resume: "files/resume.pdf"
+resourceLinks:
+  - title: "My résumé"
+    url: "/files/resume.pdf"
+  - title: "About u-forge"
+    url: "/posts/u-forge-ai/"
 
 # a summary about you
 summary: |-
@@ -38,28 +43,28 @@ socialLinks:
   url: "https://linkedin.com/in/brian-rogers-he-him-30923021"
 
 # Career strengths. Percentages use increments of 5.
-badges:
-- type: soft-skill-indicator
-  name: Incident Leadership
-  percentage: 85
-  color: blue
-- type: soft-skill-indicator
-  name: Systems Thinking
-  percentage: 80
-  color: green
-- type: soft-skill-indicator
-  name: Cross-Team Collaboration
-  percentage: 75
-  color: yellow
-- type: soft-skill-indicator
-  name: Technical Mentorship
-  percentage: 70
-  color: pink
-- type: soft-skill-indicator
-  name: Operational Improvement
-  percentage: 85
-  color: blue
-- type: soft-skill-indicator
-  name: Project Ownership
-  percentage: 80
-  color: green
+# badges:
+# - type: soft-skill-indicator
+#   name: Incident Leadership
+#   percentage: 85
+#   color: blue
+# - type: soft-skill-indicator
+#   name: Systems Thinking
+#   percentage: 80
+#   color: green
+# - type: soft-skill-indicator
+#   name: Cross-Team Collaboration
+#   percentage: 75
+#   color: yellow
+# - type: soft-skill-indicator
+#   name: Technical Mentorship
+#   percentage: 70
+#   color: pink
+# - type: soft-skill-indicator
+#   name: Operational Improvement
+#   percentage: 85
+#   color: blue
+# - type: soft-skill-indicator
+#   name: Project Ownership
+#   percentage: 80
+#   color: green

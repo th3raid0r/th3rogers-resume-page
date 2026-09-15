@@ -1,6 +1,6 @@
 # some information about you
 name: "Brian Rogers"
-nickname: "Brian" 
+nickname: "Brian"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I'm"
 image: "images/author/portrait-crop.jpg"
@@ -14,3 +14,5 @@ summary:
   - Senior Cloud Software Reliability Engineer
   - Creator of u-forge.ai
   - Founder of Tucson.social
+
+subtitle: "I do reliability engineering, local AI, and community infrastructure"
