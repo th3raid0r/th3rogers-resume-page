@@ -30,9 +30,9 @@ projects:
   timeline: "2024 - Present"
   repo: "https://github.com/th3raid0r/u-forge.ai"
   summary: |-
-    A local-first Rust desktop application for tabletop RPG worldbuilding. Object-based notes form a schema-driven knowledge graph, with GraphRAG retrieval combining keyword, semantic, and hybrid search. An optional AI assistant can search and update world data, while resource-aware inference queues coordinate work across available NPU, CPU, and GPU backends. Core editing and full-text search work without AI.
+    I'm building a Rust desktop application that connects tabletop RPG notes in a knowledge graph. It combines keyword and semantic search with an optional AI assistant that can search and update world data. Local inference queues schedule work across available NPU, CPU, and GPU backends.
 
-    Functional and demoable; actively refining search relevance and retrieval precision. The current alpha targets Linux x86_64. [Read the architecture and reliability case study](/posts/u-forge-ai/). Project information is currently hosted on GitHub, not a standalone u-forge.ai website.
+    The application is in alpha for Linux x86_64, and I'm refining search relevance and retrieval precision. [Read about the design and development](/posts/u-forge-ai/).
   tags: ["ai", "hobby", "education", "Rust", "GraphRAG", "local-first"]
 
 - name: Tucson.social
@@ -40,31 +40,30 @@ projects:
   timeline: "June 2023 - Present"
   url: "https://tucson.social"
   summary: |-
-    A suite of federated community platforms for Tucson: [Lemmy discussion](https://tucson.social), [Matrix messaging](https://tucson.chat), and [Mobilizon events](https://meetup.tucson.social). I architect and operate the OCI infrastructure, including containers, DNS, TLS, monitoring, and geographic access controls designed to keep local services rooted in the Tucson metro area while supporting broader federation.
+    I founded and run community services for Tucson: [Lemmy discussion](https://tucson.social), [Matrix messaging](https://tucson.chat), and [Mobilizon events](https://meetup.tucson.social). I designed the infrastructure on Oracle Cloud (OCI) and manage its containers, DNS, TLS, and monitoring. Geographic access controls keep the services focused on the Tucson area and reduce abuse and moderation work, while federation connects the community to the wider network.
 
-    The geographic access model reduces the abuse surface and moderation workload. I contribute upstream fixes and am developing community governance and a financial sustainability model for a nonprofit transition, including stakeholder engagement and fiscal sponsorship evaluation.
+    I'm also working with community members on governance and sustainable funding for a nonprofit transition, including evaluating fiscal sponsorship.
   tags: ["community", "OCI", "federation", "self-hosting"]
 
 - name: Homelab
-  #logo: 
+  #logo:
   role: Hobbyist
   timeline: "January 2018 - Present"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   url: "https://www.th3rogers.com/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: I've done a lot of things on my homelab. From storage servers and NFS to transcoding, crypto mining, hosting, virtual machines, containers, and so much more. 
+  summary: I use my homelab to learn by building and running systems. Projects have included storage servers and NFS, media transcoding, cryptocurrency mining, web hosting, virtual machines, and containers.
   tags: ["hobby", "education"]
 
-- name: My Portfolio Site
+- name: Portfolio Site
   #logo:
   timeline: "January 2018 - Present"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: "https://brian.th3rogers.com/"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   repo: "https://github.com/th3raid0r/th3rogers-resume-page"
-  summary: The portfolio page you are currently looking at.
+  summary: I built and maintain this site with Hugo and the Toha theme, with deployment through Cloudflare Pages.
   tags: ["hobby", "education", "professional"]
 
 - name: VFIO Gaming Project
   timeline: "January 2018 - 2020"
-  summary: During this time, I was deeply experimenting with VFIO and IOMMU. I was daily driving a VM rather than the host machine. This allowed me some unique experience in regards to VM optimization that not a lot of professionals have.
+  summary: I used a virtual machine as my daily gaming system, experimenting with VFIO and IOMMU device passthrough. The project gave me hands-on experience tuning virtual machines for graphics performance and everyday use.
   tags: ["hobby", "education"]
-

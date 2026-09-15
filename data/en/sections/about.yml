@@ -18,11 +18,11 @@ resume: "files/resume.pdf"
 
 # a summary about you
 summary: |-
-  I am a Senior SRE with 13+ years in infrastructure, reliability, and platform engineering. At Aerospike, I drive cross-functional reliability initiatives, improve SLO-based alerting, automate cloud operations, and lead incident response. My work combines deep technical expertise with engineering leadership and mission-driven product thinking.
+  I'm a senior site reliability engineer with 13+ years in infrastructure, reliability, and platform engineering. At Aerospike, I work with product teams to improve cloud reliability, make alerts more useful, automate operations, and lead incident response.
 
-  Outside my day job, I build [u-forge.ai](/posts/u-forge-ai/), a local-first Rust desktop application for tabletop RPG worldbuilding. It brings together a knowledge graph, hybrid GraphRAG retrieval, and resource-aware local inference—applying reliability engineering to an AI-assisted creative workspace.
+  Outside work, I'm building [u-forge.ai](/posts/u-forge-ai/), a Rust desktop application for tabletop RPG worldbuilding. It connects campaign notes through a knowledge graph and uses local AI to help game masters search and develop their settings.
 
-  I also founded and operate [Tucson.social](https://tucson.social), a suite of federated community platforms spanning discussion, messaging, and events. I own its architecture and operations while developing a governance framework and financial sustainability model for a nonprofit transition. [Explore my projects](#projects).
+  I also founded and run [Tucson.social](https://tucson.social), a collection of community services for discussion, messaging, and events. I manage the infrastructure and am working on community governance and sustainable funding as part of a planned nonprofit transition. [Explore my projects](#projects).
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -37,24 +37,29 @@ socialLinks:
   icon: "fab fa-linkedin"
   url: "https://linkedin.com/in/brian-rogers-he-him-30923021"
 
-# your soft skills
-# give the percentage between 50 to 100 with 5 intervals.
-# currently supported colors: blue, yellow, pink, green, sky, orange
+# Career strengths. Percentages use increments of 5.
 badges:
 - type: soft-skill-indicator
-  name: Leadership
-  percentage: 70
-  color: yellow
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 80
+  name: Incident Leadership
+  percentage: 85
   color: blue
 - type: soft-skill-indicator
   name: Systems Thinking
-  percentage: 90
+  percentage: 80
   color: green
 - type: soft-skill-indicator
-  name: Training and Documentation
-  percentage: 80
+  name: Cross-Team Collaboration
+  percentage: 75
+  color: yellow
+- type: soft-skill-indicator
+  name: Technical Mentorship
+  percentage: 70
   color: pink
-
+- type: soft-skill-indicator
+  name: Operational Improvement
+  percentage: 85
+  color: blue
+- type: soft-skill-indicator
+  name: Project Ownership
+  percentage: 80
+  color: green

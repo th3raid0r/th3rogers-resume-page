@@ -1,6 +1,6 @@
 baseURL: https://brian.th3rogers.com/
 locale: en-us
-title: Brian Rogers - Senior SRE and Project Creator
+title: Brian Rogers - Senior SRE and Builder
 
 module:
   imports:
@@ -233,7 +233,7 @@ params:
         plyr:
           # options doc: https://github.com/sampotts/plyr#options
           # fullscreen: true
-    
+
     # Enables copy code button
     copyCodeButton:
       enable: true
@@ -241,7 +241,7 @@ params:
     # Enable reading time support in post cards and in post pages
     readingTime:
       enable: false
-    
+
     # Number of posts to show to each page. Default is "12"
     pagination:
        maxPostsPerPage: 12

@@ -1,21 +1,21 @@
 # Brian Rogers — portfolio and résumé
 
-Hugo site using [Toha](https://github.com/hugo-themes/toha) v4.16.0, deployed through **Cloudflare Pages**. Docker is not part of the build or deployment workflow.
+My résumé, projects, and technical articles, built with Hugo and [Toha](https://github.com/hugo-themes/toha) v4.16.0 and deployed through Cloudflare Pages.
 
 ## Build locally
 
-Use Hugo **Extended 0.166.0**, Go **1.25.1 or newer**, and Node.js **22.14.0 or newer** (npm 10). Toha requires Hugo Extended 0.163.0 or newer; use the pinned 0.166.0 version here for consistent npm workspace generation.
+The tested toolchain is Hugo Extended 0.166.0, Go 1.27.1, and Node.js 22.14.0 with npm 10. The site's `go.mod` requires Go 1.25.1 or newer.
 
 ```sh
 npm ci --include=dev
 npm run build
 ```
 
-Hugo resolves the pinned Go module during the build. Output is written to `public/`; drafts are excluded. For interactive local development, run `hugo server` after installing dependencies.
+Hugo resolves the pinned theme module and writes the site to `public/`, excluding drafts. For local development with live reload, run `hugo server` after installing dependencies.
 
 ## Cloudflare Pages
 
-Configure the existing Pages project with the following settings for **both Production and Preview**:
+In the Cloudflare dashboard, use these settings for both Production and Preview:
 
 | Setting | Value |
 | --- | --- |
@@ -27,11 +27,9 @@ Configure the existing Pages project with the following settings for **both Prod
 | `NODE_VERSION` | `22.14.0` |
 | `SKIP_DEPENDENCY_INSTALL` | `1` |
 
-These versions match the local validation toolchain. Confirm the Pages build log reports **Hugo Extended**. `SKIP_DEPENDENCY_INSTALL` avoids a redundant automatic installation; the explicit `npm ci --include=dev` installs the theme's build dependencies from the committed lockfile. Go 1.25.1 is the minimum declared by this site's `go.mod`; the configured version above is the locally tested version.
+Check that the Pages build log reports Hugo Extended. With `SKIP_DEPENDENCY_INSTALL=1`, the build command handles dependency installation using the committed lockfile.
 
-The canonical production URL is `https://brian.th3rogers.com/` in `hugo.yaml`. The default build intentionally retains that canonical URL on previews. If a preview needs its own absolute URLs, override Hugo's `baseURL` in that preview build only; do not replace the production canonical URL with a `pages.dev` address.
-
-Pages build settings live in the Cloudflare dashboard and are **not changed by this repository update**. No Wrangler account/project identifiers or deployment secrets are required for this Git-integrated static build.
+The canonical URL in `hugo.yaml` is `https://brian.th3rogers.com/`. Preview builds use it by default. To give a preview its own absolute URLs, override Hugo's `baseURL` in that preview's build command.
 
 References: [Cloudflare's Hugo guide](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/) and [build tool version settings](https://developers.cloudflare.com/pages/configuration/build-image/).
 
@@ -46,14 +44,12 @@ npm audit
 npm run build
 ```
 
-Review and commit `go.mod`, `go.sum`, `package.json`, `package-lock.json`, and `packages/hugoautogen/` together. Newer Hugo versions generate the theme's Node dependencies as the `packages/hugoautogen` npm workspace. Do not restore the older duplicated theme dependency list in the root `package.json` or manually edit the generated workspace. `package.hugo.json` retains the site's module metadata.
+Review and commit `go.mod`, `go.sum`, `package.json`, `package-lock.json`, and `packages/hugoautogen/` together. Hugo generates the theme's Node dependencies in the `packages/hugoautogen` npm workspace; use `hugo mod npm pack` to update it. The site's module metadata lives in `package.hugo.json`.
 
 ## Content
 
 - `data/en/author.yaml` and `data/en/site.yaml`: identity, contact information, and metadata.
 - `data/en/sections/`: About, skills, employment, projects, and achievements.
-- `static/files/resume.pdf`: downloadable résumé; keep site content reconciled with it.
+- `static/files/resume.pdf`: downloadable résumé; keep employment details and project descriptions consistent with the site.
 - `content/posts/u-forge-ai/`: u-forge.ai project case study and screenshot.
-- `content/posts/strixhalo-cachyos/`: related local-inference article.
-
-Tucson.social and u-forge.ai are portfolio projects, not employment entries. u-forge.ai's public destination is its GitHub repository; the site does not link its domain as a live hosted product.
+- `content/posts/strixhalo-cachyos/`: September 2025 local-inference setup guide.

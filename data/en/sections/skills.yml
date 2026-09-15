@@ -11,36 +11,36 @@ section:
 skills:
 - name: Cloud & Infrastructure
   logo: "/images/sections/skills/cloud.png"
-  summary: "Build and operate infrastructure across AWS, Azure, OCI, and GCP using Kubernetes, Docker, Terraform, Ansible, and Packer."
+  summary: "I build and operate infrastructure across AWS, Azure, OCI, and GCP using Kubernetes, Docker, Terraform, Ansible, and Packer."
 
 - name: Observability & Reliability
   logo: "/images/sections/skills/hardware.svg"
-  summary: "Use Prometheus and Grafana for SLO-based alerting and SLA management. Lead incident response and improve monitoring, runbooks, and operational guardrails through post-incident reviews."
+  summary: "I use Prometheus and Grafana to monitor service reliability against SLOs and SLAs. I lead incident response and use post-incident reviews to improve alerts, runbooks, and operational safeguards."
 
 - name: Networking & Security
   logo: "/images/sections/skills/network.png"
-  summary: "Work with TCP/IP, DNS, TLS and certificate lifecycle management, Tailscale/WireGuard, HashiCorp Vault, and Consul to support secure, reliable services."
+  summary: "I work with TCP/IP, DNS, TLS, Tailscale/WireGuard, HashiCorp Vault, and Consul to secure services and keep them connected. My work includes certificate and secret lifecycle automation."
 
 - name: CI/CD & Automation
   logo: "/images/sections/skills/git.png"
-  summary: "Build delivery pipelines and infrastructure automation with Git, GitHub Actions, Bamboo, TeamCity, Octopus Deploy, and AWS CodeBuild/CodePipeline. Use shell scripting, Python, and Infrastructure as Code to reduce manual operations."
+  summary: "I automate builds, deployments, and infrastructure with Git, GitHub Actions, Bamboo, TeamCity, Octopus Deploy, and AWS CodeBuild/CodePipeline. I use shell scripts, Python, and infrastructure as code to reduce manual work."
 
 - name: Languages & Frameworks
   logo: "/images/sections/skills/generalist.png"
-  summary: "Develop tooling and automation with Python, JavaScript/Node.js, SQL, and shell scripting, with additional experience in Perl and Java. Build native desktop software in Rust through u-forge.ai."
+  summary: "I write tools and automation in Python, JavaScript/Node.js, SQL, and shell, and build native desktop software in Rust. I also have experience with Perl and Java."
 
 - name: Databases & Search
   logo: "/images/sections/skills/docker.svg"
-  summary: "Operate and support Aerospike, SQL Server, RavenDB, and NoSQL systems. Implement SQLite FTS5 keyword search, sqlite-vec semantic search, and hybrid reciprocal rank fusion retrieval in [u-forge.ai](/posts/u-forge-ai/)."
+  summary: "My database experience includes Aerospike, SQL Server, RavenDB, and SQLite. In [u-forge.ai](/posts/u-forge-ai/), I combine FTS5 keyword search and sqlite-vec semantic search using reciprocal rank fusion to merge the results."
 
-- name: Rust & Local AI / GraphRAG
+- name: Rust & Local AI
   logo: "/images/sections/skills/generalist.png"
-  summary: "Built [u-forge.ai](/posts/u-forge-ai/), a Rust-native desktop TTRPG graph-notes app with GraphRAG retrieval and optional local inference via Lemonade. Implemented cancellable, resource-aware jobs and multi-device inference queuing across NPU, CPU, and GPU."
+  summary: "I'm building [u-forge.ai](/posts/u-forge-ai/) in Rust, using a knowledge graph to retrieve context for an AI assistant and Lemonade for local inference. My work includes job cancellation and inference queues that schedule work across available NPU, CPU, and GPU resources."
 
 - name: Linux & Platform Operations
   logo: "/images/sections/skills/linux.png"
-  summary: "Administer Linux systems, containers, bare-metal servers, and virtual machines. Work with Nginx and Traefik, storage and RAID, and IOMMU device passthrough."
+  summary: "I administer Linux systems, containers, physical servers, and virtual machines. I work with Nginx and Traefik, storage and RAID, and IOMMU device passthrough."
 
 - name: Engineering Collaboration
   logo: "/images/sections/skills/shell.svg"
-  summary: "Work in Agile/Scrum teams using Jira. Lead cross-functional reliability work, mentor engineers on infrastructure and delivery practices, and document repeatable operational processes."
+  summary: "I coordinate reliability work across teams, mentor engineers on infrastructure and delivery practices, and write operational documentation. I have experience with Agile/Scrum teams and Jira."

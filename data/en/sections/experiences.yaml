@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Experiences
+  name: Experience
   id: experiences
   enable: true
   weight: 3
@@ -16,7 +16,7 @@ experiences:
     url: "https://www.aerospike.com"
     location: Mountain View, CA (Remote)
     # company overview
-    overview: A high-performance real-time distributed database.
+    overview: Distributed database software for real-time applications.
   positions:
   - designation: Senior Cloud Software Reliability Engineer (Cloud SRE)
     start: May 2022
@@ -24,21 +24,21 @@ experiences:
     # end:
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Embed with product development teams to drive SLO-based alerting and cloud platform reliability; uphold SLA compliance across approximately 30 production customer environments using Grafana and Prometheus.
+    - Work with product development teams to improve cloud reliability and SLO-based alerting. Monitor approximately 30 production customer environments with Grafana and Prometheus to maintain SLA compliance.
+    - Lead high-availability improvements and automate operational safeguards.
+    - Serve as incident commander during on-call rotations, leading triage, investigation, and resolution. Support escalations for complex incidents and use post-incident reviews to improve runbooks and monitoring.
+    - Provision and maintain customer infrastructure with Packer, Terraform, and Ansible, including modules for cloud agents that improve I/O performance.
     - Reduced false-positive alerts from dozens per week to 1–2 through threshold recalibration and configuration-aware monitoring.
-    - Coordinate the SRE transition of shared HashiCorp Vault infrastructure, including provisioning and service consumer enablement.
     - Automated DNS and certificate lifecycle management for a Kubernetes-based managed cloud offering, eliminating manual customer IP notifications and certificate rotation.
-    - Architected the migration from OpenVPN to Tailscale (WireGuard) to improve network reliability and reduce cross-environment operational overhead.
-    - Drive high-availability improvements and automated operational guardrails; evaluate cross-cloud options to mitigate specialized instance capacity constraints.
-    - Serve as incident commander during on-call rotations, owning triage, investigation, and resolution; provide escalation support for complex cross-system incidents.
-    - Improve runbooks, operational guardrails, and monitoring coverage through post-incident reviews.
-    - Deliver and maintain customer infrastructure with Packer, Terraform, and Ansible, including modules for cloud agents that enhance I/O performance.
+    - Designed the migration from OpenVPN to Tailscale (WireGuard) to improve network reliability and simplify operations across environments.
+    - Coordinated the transfer of shared HashiCorp Vault infrastructure to the SRE team, including plans for provisioning and helping teams use the service.
+    - Evaluated options across cloud providers to address capacity constraints for specialized instance types.
 - company:
     name: Propstream
     url: "https://www.propstream.com"
     location: Lake Forest, CA (Remote)
     # company overview
-    overview: One of the premier real-estate data tools for investors.
+    overview: Real estate data and analysis tools for investors.
   positions:
   - designation: Lead DevSecOps Engineer
     start: Apr 2021
@@ -46,17 +46,17 @@ experiences:
     end: Apr 2022
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Led infrastructure modernization, branching strategy improvements, and CI/CD automation, increasing team delivery velocity by 20%.
-    - Led contract engineers in establishing templated CI/CD pipelines and mentored the team on Infrastructure as Code best practices.
-    - Reduced time-to-resolution by 50% through AWS tooling improvements and operational process redesign.
-    - Designed and implemented a new credential management approach; managed penetration testing engagements and authored security policies.
-    - Maintained and migrated legacy infrastructure while designing replacement systems; automated QA and development environment tasks to improve issue reproducibility.
+    - Led infrastructure modernization, improved branching strategies, and automated CI/CD, increasing the team's delivery rate by 20%.
+    - Guided contract engineers in building reusable CI/CD pipelines and mentored the team on infrastructure as code.
+    - Reduced time to resolution by 50% by improving AWS tooling and operational processes.
+    - Redesigned credential management, managed penetration testing, and wrote security policies.
+    - Maintained and migrated legacy infrastructure while designing replacement systems. Automated QA and development environment tasks to make issues easier to reproduce.
 
 - company:
     name: Navex Global 
     url: "https://www.navexglobal.com"
     location: Lake Oswego, OR
-    overview: Navex Global is a leader in integrated compliance, risk, and ESG software. 
+    overview: Software for compliance, risk management, and environmental, social, and governance programs.
   positions:
   - designation: DevOps Engineer
     start: Jun 2019
@@ -87,16 +87,16 @@ experiences:
     start: Nov 2015
     end: Jul 2017
     responsibilities:
-    - Maintained the stability of high value production systems through robust monitoring, alerting, and change control processes.
+    - Kept production systems stable through monitoring, alerting, and change control.
     - Supported continuous delivery and deployment.
     - Developed SQL and PowerShell scripts to resolve common customer data issues.
-    - Provided data to operations teams to support business goals.
+    - Supplied operations teams with the data they needed for their work.
     - Trained and supported team members.
 
 - company:
     name: NTT America
     url: "https://services.global.ntt/en-us/"
-    location: Boca Raton, Fl
+    location: Boca Raton, FL
     overview: Hosting and infrastructure services provider.
   positions:
   - designation: SCM/Release Engineer
@@ -162,6 +162,4 @@ experiences:
     responsibilities:
     - Supported clients using IPRO Tech software and performed user acceptance testing.
     - Documented and reproduced bugs in the Classic software suite.
-
-
 

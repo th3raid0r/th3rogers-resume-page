@@ -11,7 +11,7 @@ tags: ["llama", "ai", "strix-halo", "linux", "inference", "rocm"]
 categories: ["Linux", "AI"]
 ---
 
-> **Related project:** I am applying this local-inference work in [u-forge.ai](/posts/u-forge-ai/), a Rust desktop worldbuilding application with a knowledge graph, hybrid retrieval, and resource-aware inference queues. See the project write-up for its architecture and current scope. This guide reflects the September 2025 software ecosystem, not the project's current hardware requirements.
+> This guide covers my September 2025 setup. That work helped shape [u-forge.ai](/posts/u-forge-ai/), the Rust desktop worldbuilding app I'm developing with local AI and a knowledge graph.
 
 # Introduction 
 

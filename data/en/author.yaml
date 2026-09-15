@@ -2,7 +2,7 @@
 name: "Brian Rogers"
 nickname: "Brian" 
 # greeting message before your name. it will default to "Hi! I am" if not provided
-greeting: "Greetings, My name is"
+greeting: "Hi, I'm"
 image: "images/author/portrait-crop.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
@@ -14,5 +14,3 @@ summary:
   - Senior Cloud Software Reliability Engineer
   - Creator of u-forge.ai
   - Founder of Tucson.social
-  - Local-First AI Developer
-  - Community Platform Operator
