@@ -31,11 +31,12 @@ skills:
 
 - name: Databases & Search
   logo: "/images/sections/skills/docker.svg"
-  summary: "My database experience includes Aerospike, SQL Server, RavenDB, and SQLite. In [u-forge.ai](/posts/u-forge-ai/), I combine FTS5 keyword search and sqlite-vec semantic search using reciprocal rank fusion to merge the results."
+  summary: "My database experience includes Aerospike, SQL Server, RavenDB, and SQLite. In u-forge.ai, I combine FTS5 keyword search and sqlite-vec semantic search using reciprocal rank fusion to merge the results."
 
 - name: Rust & Local AI
   logo: "/images/sections/skills/generalist.png"
-  summary: "I'm building [u-forge.ai](/posts/u-forge-ai/) in Rust, using a knowledge graph to retrieve context for an AI assistant and Lemonade for local inference. My work includes job cancellation and inference queues that schedule work across available NPU, CPU, and GPU resources."
+  summary: "I'm building u-forge.ai in Rust, using a knowledge graph to retrieve context for an AI assistant and Lemonade for local inference. My work includes job cancellation and inference queues that schedule work across available NPU, CPU, and GPU resources."
+  url: "/posts/u-forge-ai/"
 
 - name: Linux & Platform Operations
   logo: "/images/sections/skills/linux.png"
